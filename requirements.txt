@@ -1,0 +1,7 @@
+html2text
+nltk
+alphabet_detector
+wordcloud
+matplotlib
+pillow
+numpy
