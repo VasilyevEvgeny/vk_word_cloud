@@ -17,7 +17,7 @@ pip install -r <path_to_project>/requirements.txt
 
 ![vk](resources/vk.png)
 
-* Choose png-mask needed for word cloud
+* Choose gray-scaled png-mask needed for word cloud
 * Create instance of `WordCloudMaker` with at least a path to the message history and mask, then process it:
 
 ```python
