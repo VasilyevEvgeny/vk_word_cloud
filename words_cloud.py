@@ -18,6 +18,7 @@ class WordsCloudMaker:
         self.__path_to_txt = '/'.join(self.__path_to_html.split('.')[:-1]) + '.txt'
 
         self.__path_to_mask = kwargs['path_to_mask']
+        self.__custom_stopwords = kwargs.get('custom_stopwords', (''))
         self.__min_word_len = kwargs.get('min_word_len', 3)
         self.__max_words = kwargs.get('max_words', 2000)
         self.__max_font_size = kwargs.get('max_font_size', 20)
@@ -69,7 +70,8 @@ class WordsCloudMaker:
 
         tokens = word_tokenize(raw_text)
         tokens_filtered = [w.lower() for w in tokens
-                           if not (w in stopset)
+                           if w not in stopset
+                           and w not in self.__custom_stopwords
                            and w.isalpha()
                            and len(w) >= self.__min_word_len
                            and ad.is_cyrillic(w)]
