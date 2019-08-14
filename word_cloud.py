@@ -96,7 +96,7 @@ class WordsCloudMaker:
     def __wordcloud(self, text_string):
 
         t_start = time()
-        print('Plotting word_cloud...')
+        print('Plotting word cloud...')
 
         mask = np.array(Image.open(self.__path_to_mask))
 
