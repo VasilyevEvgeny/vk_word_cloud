@@ -23,7 +23,7 @@ class WordsCloudMaker:
         self.__min_word_len = kwargs.get('min_word_len', 3)
         self.__max_words = kwargs.get('max_words', 2000)
         self.__max_font_size = kwargs.get('max_font_size', 20)
-        self.__enlargement_factor = kwargs.get('enlargement_factor', 1)
+        self.__enlargement_factor = kwargs.get('enlargement_factor', 4)
 
 
         print('#####################')
