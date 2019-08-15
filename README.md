@@ -15,7 +15,9 @@ pip install -r <path_to_project>/requirements.txt
 
 * Save chat history to html:
 
-![vk](resources/vk.png)
+<p align="center"> 
+<img src="resources/vk.png">
+</p>
 
 * Choose gray-scaled png-mask needed for word cloud
 * Create instance of `WordCloudMaker` with at least a path to the message history and mask, then process it:
