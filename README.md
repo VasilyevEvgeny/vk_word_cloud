@@ -37,4 +37,8 @@ obj.process()
 * **max_font_size** (*default = 20*) - maxium font_size of each word
 * **enlargement_factor** (*default = 4*) - words cloud image enlargement ratio compared with mask shape
 
-# Examples
+# Example
+
+|**Mask**|**Cloud**|
+|:---:|:---:|
+| ![mask](https://github.com/VasilyevEvgeny/vk_word_cloud/blob/master/examples/1_photo.png) | ![cloud](https://github.com/VasilyevEvgeny/vk_word_cloud/blob/master/examples/1_cloud.png) |
