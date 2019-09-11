@@ -27,7 +27,6 @@ from word_cloud import WordCloudMaker
 
 obj = WordCloudMaker(path_to_html=...,
                      path_to_mask=...)
-
 obj.process()
 ```
 
